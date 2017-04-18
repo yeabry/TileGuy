@@ -1,0 +1,149 @@
+.header-top {
+  background-color: lightblue;
+}
+
+.header-top ul, .header-mid ul, .footer-logo ul, .footer-nav {
+  padding-top: 6px;
+  list-style-type: none;
+  display: inline-block;
+}
+
+.social-icons {
+  float: right;
+  padding-right: 40px;
+}
+
+.header-top ul li, .header-mid ul li, .footer-nav li {
+  display: inline-block;
+}
+
+.header-info, .footer-nav {
+  float: right;
+  padding-right: 150px;
+}
+
+
+.header-info li {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.navbar {
+  margin-top: 100px;
+  margin-bottom: 0px;
+}
+
+.headline {
+  background-image: url("../Images/tile-installation.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 550px;
+  background-size: cover;
+  width: 100%;
+}
+
+.experience-bar, .call-bar {
+  background-color: lightblue;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.home-split .row .col-sm-6{
+  padding-left: 5%;
+  padding-bottom: 5%;
+}
+
+.home-split .row .col-sm-6 ul {
+  padding-top: 40px;
+}
+
+.services-section {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.services-section h2, .home-contact h3 {
+  text-align: center;
+}
+
+.services-section ul li{
+  font-size: 1.1em;
+  line-height: 2;
+}
+
+.form-horizontal .row .col-xs-6:nth-child(2) {
+  padding-right: 0px;
+}
+
+.form-horizontal .row .col-xs-6:first-child {
+    padding-left: 0px;
+}
+
+.label-text{
+  text-align: left;
+  margin-top: 15px;
+}
+
+.textbox-center{
+  text-align: center;
+}
+
+.home-contact .row .col-sm-6:nth-child(2) {
+  background-image: url("../Images/ceramic-tile.jpg");
+  background-repeat: no-repeat;
+  height: 550px;
+  background-size: cover;
+}
+
+.btn-success {
+  margin-top: 20px;
+  width: 100%;
+}
+
+form.form-horizontal {
+  margin: 0 auto;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.footer {
+  height: 90px;
+  background-color: lightblue;
+}
+
+.border {
+  width: 80%;
+  border-radius: 3px;
+  height: 5px;
+  background-color: lightblue;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+textarea {
+    resize: none;
+}
+
+
+
+/* iPhone 6 Media */
+@media (max-width: 375px) {
+  form.form-horizontal {padding-left: 10px; padding-right: 10px;
+}
+
+
+
+
+
+
+
+
+
